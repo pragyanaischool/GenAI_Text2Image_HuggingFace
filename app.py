@@ -15,6 +15,7 @@ def generate_image(prompt):
     return image
 
 # Streamlit UI
+st.image("")
 st.title("Image Generation with Stable Diffusion")
 st.write("Enter a text prompt and generate an image.")
 
